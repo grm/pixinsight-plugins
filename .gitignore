@@ -1,0 +1,16 @@
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Local IDE settings
+.idea/
+.vscode/
+
+# Generated packages and build output
+build/
+dist/
+*.zip
+
