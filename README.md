@@ -28,12 +28,16 @@ Combines two registered, linear monochrome masters of the same target and filter
 
 See [Master Mixer documentation](docs/master-mixer.md) for assumptions, formulas, fallback behavior, and current limitations.
 
+### Astrogrm > BlinkCull
+
+Blinks light frames found recursively in a folder, grades suspect subs against frames from the same camera, filter, exposure, and night, and can move them aside, restore them, or delete them after confirmation. Kept lights, optional review frames, and the calibration frames found alongside can be sent to WeightedBatchPreprocessing.
+
 ## Building an update package
 
 Run:
 
 ```bash
-python tools/build-release.py 0.1.0
+python tools/build-release.py 0.2.0
 ```
 
 This generates the ZIP package and `updates.xri` under `updates/`. The build tool does not publish the files; GitHub Actions deploys the committed contents of `updates/` to GitHub Pages.

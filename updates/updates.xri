@@ -5,10 +5,10 @@
       <p>PixInsight scripts maintained by Astrogrm.</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:1.9.99">
-      <package fileName="astrogrm-scripts-v0.1.0.zip" sha1="e8c41433d8f6168f438bfbbc39ccb30b62332563" type="script" releaseDate="20260903">
-         <title>Astrogrm PixInsight Scripts v0.1.0</title>
+      <package fileName="astrogrm-scripts-v0.2.0.zip" sha1="cb660c4584e548955336f1b99b4ad5e122ca056e" type="script" releaseDate="20261031">
+         <title>Astrogrm PixInsight Scripts v0.2.0</title>
          <description>
-            <p>Installs Astrogrm Master Mixer v0.1.0 for PixInsight 1.9.4 and later 1.9.x releases.</p>
+            <p>Installs Astrogrm > BlinkCull and Astrogrm > Master Mixer, version 0.2.0, for PixInsight 1.9.4 and later 1.9.x releases.</p>
          </description>
       </package>
    </platform>
